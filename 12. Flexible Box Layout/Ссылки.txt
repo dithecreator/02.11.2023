@@ -1,0 +1,5 @@
+https://drafts.csswg.org/css-flexbox/
+https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox
+https://html5.by/blog/flexbox/
+https://html5book.ru/css3-flexbox/
+https://www.w3schools.com/css/css3_flexbox.asp

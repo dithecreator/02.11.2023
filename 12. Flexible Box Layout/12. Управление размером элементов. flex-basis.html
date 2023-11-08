@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>flex-basis</title>
+    <style>
+        .flex-container {
+            display: flex; 
+            height: 300px; 
+            color: #fff; 
+            font-size: 2.6em; 
+            flex-flow: column wrap; 
+        }
+
+        .flex-item {
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+        }
+
+        .one {
+            background: #508694; 
+            margin-right: 10px;
+            flex-basis: 100%;
+            flex-grow: 0;
+            flex-shrink: 1;
+            order: 1; 
+        }
+
+        .two {
+            background: #BB844C; 
+            margin-bottom: 10px; 
+            flex-basis: auto;
+            flex-grow: 1;
+            flex-shrink: 1;
+            order: 2; 
+        }
+
+        .three {
+            background: #929D79; 
+            flex-basis: auto;
+            flex-grow: 1;
+            flex-shrink: 1;
+            order: 3; 
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item one">Первый</div>
+        <div class="flex-item two">Второй</div>
+        <div class="flex-item three">Третий</div>
+    </div>
+</body>
+</html>
